@@ -11,8 +11,7 @@ class Solution:
             if rem == 0:
                 n -= 1
             
-        return ans
-    
+        return ans  
 solution = Solution()
 ans = solution.colName(40)
 print(ans)
